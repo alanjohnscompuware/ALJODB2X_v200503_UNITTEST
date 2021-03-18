@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.3.v20210225-0257_148?>
+<!--Topaz for Total Test 20.5.3.v20210225-0257_148 18-Mar-2021 15:53:38-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/ALJODB2X_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="ALJODB2X" encoding="1047" entrypoint="ALJODB2X" id="Tests/Scenarios/ALJODB2X_Scenario.testscenario%23ALJODB2XCase1" target="ALJODB2X">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HUK0320.DEMO.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1614051670000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/ALJODB2X.interface#Tests/Interfaces/ALJODB2X.interface</testcase:interface>
+      <testcase:input listructure="../Structures/ALJODB2X_PARMINFO.listructure#Tests/Structures/ALJODB2X_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJODB2X_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F300000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F300001842F0F0F9</properties:property>
+            <properties:property name="address" type="string">37B78568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/ALJODB2X_CWXTDATE_01.stub#Tests/Stubs/ALJODB2X_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_RPTFILE_FILE_01.stub#Tests/Stubs/ALJODB2X_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_EMPFILE_FILE_01.stub#Tests/Stubs/ALJODB2X_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_EMPLOYEE_CURSOR_SQL_01.stub#Tests/Stubs/ALJODB2X_EMPLOYEE_CURSOR_SQL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_Insert_1_SQL_01.stub#Tests/Stubs/ALJODB2X_Insert_1_SQL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_Update_1_SQL_01.stub#Tests/Stubs/ALJODB2X_Update_1_SQL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_Select_1_SQL_01.stub#Tests/Stubs/ALJODB2X_Select_1_SQL_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJODB2X_DATETIME_01.stub#Tests/Stubs/ALJODB2X_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/ALJODB2X_RETURN-CODE.listructure#Tests/Structures/ALJODB2X_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJODB2X_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>ALJODB2X</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

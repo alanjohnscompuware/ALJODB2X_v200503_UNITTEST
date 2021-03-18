@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/ALJODB2X_DATETIME_01.stub" nextCalltoken="20002" stubtype="DATETIME" target="" token="20000">
+  <stub:description>Created: 18-Mar-2021 15:52:19</stub:description>
+  <stub:stubdata callToken="20001" dateTimeType="1" id="0" name="ACCEPT DATE">
+    <stub:interface>../Interfaces/ALJODB2X_TODAYS_DATE.interface#Tests/Interfaces/ALJODB2X_TODAYS_DATE.interface</stub:interface>
+    <stub:output listructure="../Structures/ALJODB2X_TODAYS-DATE.listructure#Tests/Structures/ALJODB2X_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/ALJODB2X_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F1F0F3F1F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>00027184</stub:serviceArg>
+        <stub:serviceArg>49338A82CF2E0C4A</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F1F0F3F1F8F1F1F5F2F1F8F8F7F8</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+</stub:stub>

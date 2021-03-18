@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.5.3.v20210225-0257_148?>
+<!--Topaz for Total Test 20.5.3.v20210225-0257_148 18-Mar-2021 15:53:38-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/ALJODB2X_RPTFILE_EMP_TOTAL_DTL.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#Tests/Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.EMP_COUNT_DISP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/ALJODB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.EMP_GRAND_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
