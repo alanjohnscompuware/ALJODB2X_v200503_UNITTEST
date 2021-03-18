@@ -1,1 +1,4 @@
 This unit test for ALJODB2X is configured to be used in the Jenkins pipeline ALJODB2X_UNIT_TEST
+
+The GITHUB remote repo is set up to use token authentication - see token in my ISPW-Git demo notes
+When creatin a remote def in the local repository, use the token rather than the password
