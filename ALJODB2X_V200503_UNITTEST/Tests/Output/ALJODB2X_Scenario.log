@@ -1,16 +1,17 @@
-16:16:14.754 INFO      TOPAZ            ***************************************
-16:16:14.754 INFO      TOPAZ            ** Execution from Topaz with options **
-16:16:14.754 INFO      TOPAZ            ***************************************
-16:16:14.755 INFO      TOPAZ            Using repository: false
-16:16:14.755 INFO      TOPAZ            ***************************************
-16:16:14.755 INFO      Engine           Test Scenario execution started
-16:16:14.755 INFO      Engine           Using context settings:
-  Engine Version                : 20.5
-  Environment id                : 192.168.96.130:16196
+14:41:01.151 INFO      TOPAZ            ***************************************
+14:41:01.152 INFO      TOPAZ            ** Execution from Topaz with options **
+14:41:01.152 INFO      TOPAZ            ***************************************
+14:41:01.152 INFO      TOPAZ            Using repository: true
+14:41:01.152 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
+14:41:01.152 INFO      TOPAZ            ***************************************
+14:41:01.157 INFO      Engine           Test Scenario execution started
+14:41:01.157 INFO      Engine           Using context settings:
+  Engine Version                : 20.6
+  Environment id                : 5e3adda8f793470c98f5e15a
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.compuware.com
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
@@ -19,21 +20,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : HUK0320
   Use Repository Server         : false
-16:16:14.755 INFO      Engine           Setting variables from context and context data extensions
-16:16:14.755 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-16:16:14.755 INFO      Engine             id: environmentType    value: BATCH
-16:16:14.756 INFO      Engine             id: userId             value: HUK0320
-16:16:14.756 INFO      Engine             id: accountingInfo     value: 
-16:16:14.756 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
-16:16:14.765 INFO      Unittest         Using JCL skeleton to submit JCL
-16:16:26.354 INFO      CWCC             Sending Job execution request to Host 
-16:16:31.592 INFO      CWCC             Job execution completed with status:
+14:41:01.158 INFO      Engine           Setting variables from context and context data extensions
+14:41:01.158 INFO      Engine             id: environmentId      value: 5e3adda8f793470c98f5e15a
+14:41:01.164 INFO      Engine             id: environmentType    value: BATCH
+14:41:01.164 INFO      Engine             id: userId             value: HUK0320
+14:41:01.165 INFO      Engine             id: accountingInfo     value: 
+14:41:01.165 INFO      Engine             id: userid             value: HUK0320Y
+14:41:01.168 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
+14:41:01.794 INFO      Unittest         Using JCL skeleton to submit JCL
+14:41:08.016 INFO      CWCC Batch       Sending Job execution request to Host 
+14:41:13.448 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HUK0320A(J0117976) ended with return code: 0000
-  Job name       : HUK0320A
-  Job id         : J0117976
+  Job status msg : Job TTTRUNNR(J0127966) ended with return code: 0000
+  Job name       : TTTRUNNR
+  Job id         : J0127966
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-16:16:33.903 INFO      Unittest         Execution completed
-16:16:33.904 INFO      Engine           Test Scenario execution ended
+14:41:16.144 INFO      Unittest         Execution completed
+14:41:16.145 INFO      Engine           Test Scenario execution ended
