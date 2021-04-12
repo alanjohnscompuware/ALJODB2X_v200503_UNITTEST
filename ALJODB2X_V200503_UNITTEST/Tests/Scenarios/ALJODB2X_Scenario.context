@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e3adda8f793470c98f5e15a" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
-    <Parameter key="">
-      <Value />
-    </Parameter>
     <Parameter key="unittest.loadlibraries">
       <Value>CEE.SCEERUN</Value>
       <Value>HUK0320.DEMO.LOAD.PDSE</Value>
