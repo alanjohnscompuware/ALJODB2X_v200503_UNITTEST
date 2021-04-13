@@ -8,7 +8,7 @@
       <Value>SYS2.CW.CXR17Q.SLCXLOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="ALJODB2X" caseInsensitiveCompare="false" path="ALJODB2X_Scenario.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="ALJODB2X" caseInsensitiveCompare="false" path="ALJODB2X_Scenario.local.context">
     <Test>
       <Unittest testscenariopath="ALJODB2X_Scenario.testscenario" moduleName="ALJODB2X" />
     </Test>
