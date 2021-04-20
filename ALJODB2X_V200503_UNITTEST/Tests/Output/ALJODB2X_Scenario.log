@@ -1,11 +1,11 @@
-12:14:52.236 INFO      TOPAZ            ***************************************
-12:14:52.237 INFO      TOPAZ            ** Execution from Topaz with options **
-12:14:52.237 INFO      TOPAZ            ***************************************
-12:14:52.237 INFO      TOPAZ            Using repository: true
-12:14:52.237 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
-12:14:52.237 INFO      TOPAZ            ***************************************
-12:14:52.237 INFO      Engine           Test Scenario execution started
-12:14:52.237 INFO      Engine           Using context settings:
+09:38:07.885 INFO      TOPAZ            ***************************************
+09:38:07.885 INFO      TOPAZ            ** Execution from Topaz with options **
+09:38:07.889 INFO      TOPAZ            ***************************************
+09:38:07.890 INFO      TOPAZ            Using repository: true
+09:38:07.890 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
+09:38:07.890 INFO      TOPAZ            ***************************************
+09:38:07.895 INFO      Engine           Test Scenario execution started
+09:38:07.895 INFO      Engine           Using context settings:
   Engine Version                : 20.6
   Environment id                : 5e3adda8f793470c98f5e15a
   Environment type              : Batch
@@ -20,21 +20,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : HUK0320
   Use Repository Server         : false
-12:14:52.238 INFO      Engine           Setting variables from context and context data extensions
-12:14:52.238 INFO      Engine             id: environmentId      value: 5e3adda8f793470c98f5e15a
-12:14:52.238 INFO      Engine             id: environmentType    value: BATCH
-12:14:52.238 INFO      Engine             id: userId             value: HUK0320
-12:14:52.238 INFO      Engine             id: accountingInfo     value: 
-12:14:52.238 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
-12:14:52.278 INFO      Unittest         Using JCL skeleton to submit JCL
-12:14:58.245 INFO      CWCC Batch       Sending Job execution request to Host 
-12:15:03.645 INFO      CWCC Batch       Job execution completed with status:
+09:38:07.895 INFO      Engine           Setting variables from context and context data extensions
+09:38:07.895 INFO      Engine             id: environmentId      value: 5e3adda8f793470c98f5e15a
+09:38:07.901 INFO      Engine             id: environmentType    value: BATCH
+09:38:07.901 INFO      Engine             id: userId             value: HUK0320
+09:38:07.901 INFO      Engine             id: accountingInfo     value: 
+09:38:07.904 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
+09:38:08.632 INFO      Unittest         Using JCL skeleton to submit JCL
+09:38:15.326 INFO      CWCC Batch       Sending Job execution request to Host 
+09:38:20.774 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job TTTRUNNR(J0128793) ended with return code: 0000
+  Job status msg : Job TTTRUNNR(J0130478) ended with return code: 0000
   Job name       : TTTRUNNR
-  Job id         : J0128793
+  Job id         : J0130478
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-12:15:06.098 INFO      Unittest         Execution completed
-12:15:06.098 INFO      Engine           Test Scenario execution ended
+09:38:23.235 INFO      Unittest         Execution completed
+09:38:23.235 INFO      Engine           Test Scenario execution ended
