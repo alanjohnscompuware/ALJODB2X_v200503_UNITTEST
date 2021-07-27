@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e3adda8f793470c98f5e15a" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
       <Value>CEE.SCEERUN</Value>

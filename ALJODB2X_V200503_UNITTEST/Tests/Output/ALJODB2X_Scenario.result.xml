@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
-<?totaltestVersion 20.6.2.v20210503-0527_148?><!--Topaz for Total Test 20.6.2.v20210503-0527_148 10-May-2021 17:36:49-->  <result>
+<?totaltestVersion 20.7.1.v20210611-0414_90?><!--Topaz for Total Test 20.7.1.v20210611-0414_90 27-Jul-2021 10:15:11-->  <result>
     <testsuiteResult errorCount="0" failureCount="0" testCount="339">
       <testscenarioResults errorCount="0" failureCount="0" testCount="339">
         <testcaseResults errorCount="0" failureCount="0" testCount="339">

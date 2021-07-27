@@ -1,17 +1,16 @@
-17:36:36.031 INFO      TOPAZ            ***************************************
-17:36:36.032 INFO      TOPAZ            ** Execution from Topaz with options **
-17:36:36.032 INFO      TOPAZ            ***************************************
-17:36:36.032 INFO      TOPAZ            Using repository: true
-17:36:36.032 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
-17:36:36.032 INFO      TOPAZ            ***************************************
-17:36:36.032 INFO      Engine           Test Scenario execution started
-17:36:36.033 INFO      Engine           Using context settings:
-  Engine Version                : 20.6
-  Environment id                : 5e3adda8f793470c98f5e15a
+10:14:58.243 INFO      TOPAZ            ***************************************
+10:14:58.245 INFO      TOPAZ            ** Execution from Topaz with options **
+10:14:58.245 INFO      TOPAZ            ***************************************
+10:14:58.246 INFO      TOPAZ            Using repository: false
+10:14:58.246 INFO      TOPAZ            ***************************************
+10:14:58.246 INFO      Engine           Test Scenario execution started
+10:14:58.247 INFO      Engine           Using context settings:
+  Engine Version                : 20.7
+  Environment id                : 192.168.96.130:16196
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwcc.compuware.com
+  Server address                : 192.168.96.130
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
@@ -20,21 +19,30 @@
   Codepage                      : IBM-1047
   Host user Id                  : HUK0320
   Use Repository Server         : false
-17:36:36.033 INFO      Engine           Setting variables from context and context data extensions
-17:36:36.033 INFO      Engine             id: environmentId      value: 5e3adda8f793470c98f5e15a
-17:36:36.033 INFO      Engine             id: environmentType    value: BATCH
-17:36:36.033 INFO      Engine             id: userId             value: HUK0320
-17:36:36.033 INFO      Engine             id: accountingInfo     value: 
-17:36:36.034 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
-17:36:36.785 INFO      Unittest         Using JCL skeleton to submit JCL
-17:36:42.645 INFO      CWCC Batch       Sending Job execution request to Host 
-17:36:48.048 INFO      CWCC Batch       Job execution completed with status:
+10:14:58.247 INFO      Engine           Setting variables from context and context data extensions
+10:14:58.247 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+10:14:58.247 INFO      Engine             id: environmentType    value: BATCH
+10:14:58.247 INFO      Engine             id: userId             value: HUK0320
+10:14:58.247 INFO      Engine             id: accountingInfo     value: 
+10:14:58.248 INFO      Unittest         Interpreting Unittest of module: ALJODB2X testscenario path: ALJODB2X_Scenario.testscenario
+10:14:58.267 DEBUG     Unittest         Getting TTTRUNNR loadlib version
+10:14:58.784 DEBUG     Unittest         Generic JCL skeleton used from environment/connection
+10:14:58.784 INFO      Unittest         Using JCL skeleton to submit JCL
+10:14:58.787 DEBUG     Unittest         Building binary files for test scenario: ALJODB2X_Scenario.testscenario in project Tests
+10:15:04.822 DEBUG     Unittest         Generic JCL skeleton used from environment/connection
+10:15:04.835 INFO      CWCC             Sending Job execution request to Host 
+10:15:04.854 DEBUG     CWCC             Executing Job through HCI
+10:15:05.097 DEBUG     CWCC             Job submitted with jobId: J0169139 jobName:HUK0320A
+10:15:10.282 INFO      CWCC             Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job TTTRUNNR(J0137796) ended with return code: 0000
-  Job name       : TTTRUNNR
-  Job id         : J0137796
+  Job status msg : Job HUK0320A(J0169139) ended with return code: 0000
+  Job name       : HUK0320A
+  Job id         : J0169139
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-17:36:50.494 INFO      Unittest         Execution completed
-17:36:50.495 INFO      Engine           Test Scenario execution ended
+10:15:10.283 DEBUG     CWCC             Setting execution variable 'jobid' to J0169139
+10:15:10.283 DEBUG     CWCC             Setting execution variable 'jobname' to HUK0320A
+10:15:10.283 DEBUG     CWCC             Setting execution variable 'returncode' to 0000
+10:15:11.780 INFO      Unittest         Execution completed
+10:15:11.780 INFO      Engine           Test Scenario execution ended
